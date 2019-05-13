@@ -4319,7 +4319,6 @@ interface WritableStreamErrorCallback {
     (reason: any): void | PromiseLike<void>;
 }
 
-declare var onmessage: ((this: DedicatedWorkerGlobalScope, ev: MessageEvent) => any) | null;
 declare function close(): void;
 declare function postMessage(message: any, transfer?: Transferable[]): void;
 /**
