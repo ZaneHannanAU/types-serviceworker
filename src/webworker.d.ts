@@ -4329,7 +4329,6 @@ declare function dispatchEvent(event: Event): boolean;
 declare var caches: CacheStorage;
 declare var isSecureContext: boolean;
 declare var location: WorkerLocation;
-declare var onerror: ((this: DedicatedWorkerGlobalScope, ev: ErrorEvent) => any) | null;
 declare var performance: Performance;
 declare function msWriteProfilerMark(profilerMarkName: string): void;
 /**
